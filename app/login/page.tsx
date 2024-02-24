@@ -39,7 +39,6 @@ export default function LoginPage({ searchParams }: PageProps) {
       console.log("Sign in success");
       router.push("/");
     } else {
-      // Redirect to home page
       console.log(signInResult?.error);
     }
   };
